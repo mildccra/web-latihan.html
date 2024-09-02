@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layuot dasar</title>
+    <style>
+        .header{
+            background-color: rgb(57, 201, 201);
+            min-height: 50px;
+            text-align: center;
+        }
+        .content{
+            background-color: rgb(27, 200, 200);
+            min-height: 500px;
+            overflow: auto;
+
+        }
+        .footer{
+            background-color: rgb(31, 146, 107);
+            min-width: 50px;
+            padding: 20px;
+        }
+        .container{
+            width: 800px;
+            margin: 0 auto ;
+         
+        }
+        .menu ul{
+            padding: 0;
+        }
+        .menu ul li{
+            display: inline-block;
+            position: relative;
+        }
+        .menu ul li a{
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .logo img{
+           width: 200px; 
+        }
+        .thumbnail{
+            background-color: rgb(90, 230, 209);
+            text-align: center;
+            padding: 10px;
+            width: 225px;
+            margin: 10px;
+            float: left;
+        }
+        .thumbnail img{
+           width: 100%;
+        }
+       ul.submenu{
+            background-color: aquamarine;
+            border: 1px solid aqua;
+            text-align: left;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            display: none;
+        }
+        ul.submenu li{
+            display: block;
+        }
+        ul.submenu li a{
+            display: block;
+            padding: 5px 10px;
+        }
+        .menu ul li:hover  ul.submenu{
+            display: block;
+
+        }
+        .jumbotron{
+            width: 100%;
+            padding: 80px 40px;
+            box-sizing: border-box;
+            text-align: center;
+            color: rgb(71, 44, 223);
+            background-color: #7ec5e3;
+            background-image: url(https://th.bing.com/th/id/OIP.gGkjUTQFcj62a2cCcQjiuQHaE8?rs=1&pid=ImgDetMain);
+            background-size: cover;
+
+        }
+        .button{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="header">
+        <div class="logo">
+            <img src="logocontoh.png" alt="logo">
+        </div>
+        <div class="menu">
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li>
+                <a href="">About</a>
+                <ul class="submenu">
+                    <li><a href="">CV</a></li>
+                    <li><a href="">education</a></li>
+                    <li><a href="">portopolion</a></li>
+                </ul>
+             </li>
+            <li><a href="">contact</a></li>
+        </ul>
+      </div>
+      <div class="jumbotron">
+        <div class="overlay">
+
+        </div>
+        <h2>WELCOME TO MY ADEMILA </h2>
+        <P>selamat berbelanja.</P>
+      </div>
+      <div class="content">
+        <h2 style="margin-left:10px ;">Our product</h2>
+        <div class="thumbnail">
+            <img src="http://via.placeholder.com/250x150" alt="">
+            <h2>Product 2</h2>
+            <p>Rp 350.000</p>
+            <button type="button">Detail!</button>
+
+
+        </div>
+        <div class="thumbnail">
+            <img src="http://via.placeholder.com/250x150" alt="">
+            <h2>Product 2</h2>
+            <p>Rp 350.000</p>
+            <button type="button">Detail!</button>
+
+
+
+        </div>
+        <div class="thumbnail">
+            <img src="http://via.placeholder.com/250x150" alt="">
+            <h2>Product 2</h2>
+            <p>Rp 350.000</p>           
+            <button type="button">Detail!</button>
+
+
+
+        </div>
+            <div class="thumbnail">
+            <img src="http://via.placeholder.com/250x150" alt="">
+            <h2>Product 2</h2>
+            <p>Rp 350.000</p>           
+             <button type="button">Detail!</button>
+
+
+        </div>
+        <div class="thumbnail">
+            <img src="http://via.placeholder.com/250x150" alt="">
+            <h2>Product 2</h2>
+            <p>Rp 350.000</p>
+            <button type="button">Detail!</button>
+
+
+      </div>       
+       <div class="thumbnail">
+        <img src="http://via.placeholder.com/250x150" alt="">
+        <h2>Product 2</h2>
+        <p>Rp 350.000</p>
+        <button type="button">Detail!</button>
+
+  </div>
+      </div>
+      <div class="footer">
+        <h3>copyright 2024 my page</h3>            
+      </div>
+</body>
+</html>
